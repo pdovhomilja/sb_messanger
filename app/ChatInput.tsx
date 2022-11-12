@@ -53,7 +53,7 @@ function ChatInput({}: Props) {
   return (
     <form
       onSubmit={addMessage}
-      className="flex px-10 py-5 space-x-2 border-t fixed bottom-0 z-50 w-full"
+      className="flex px-10 py-5 space-x-2 border-t fixed bottom-0 z-50 w-full bg-white"
     >
       <input
         type="text"
